@@ -2,161 +2,146 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Meu Projeto</title>
+    <title>CINEMAR - IFCE</title>
     <link rel="stylesheet" href="style.css">
 </head>
-    <body>
+<body>
 
-        <header id="inicio">
-            <h1>CINEMAR</h1>
+    <header id="inicio">
+        <h1 id="titulo">CINEMAR</h1>
 
-            <nav class="menu">
-                <a href="#inicio" class="link">Início</a>
-                <a href="#destaques" class="link">Destaques</a>
-                <a href="#programacao" class="link">Programação</a>
-                <a href="#contato" class="link">Contato</a>
-            </nav>
-        </header>
+        <nav class="menu">
+            <a href="#inicio" class="link">Início</a>
+            <a href="#destaques" class="link">Destaques</a>
+            <a href="#programacao" class="link">Programação</a>
+            <a href="#contato" class="link">Contato</a>
+        </nav>
+    </header>
 
-        <main>
-            <section class="apresentacao ">
-                <p class="descricao">o evento mais aclamado do ifce, asssitir filmes de alto nivel criado pelos estudantes mais capazes desse país</p>
-                <img src="https://s3.amazonaws.com/chico-rei-blogs/content/images/2021/10/capa-cinema-em-casa.jpg" alt="Imagem de cinema"
-                height="400px" width="600px">
-            </section>
+    <main>
+        <section class="apresentacao">
+            <p class="descricao">O evento mais aclamado do IFCE, assistir filmes de alto nível criados pelos estudantes mais capazes deste país.</p>
+            <img src="https://s3.amazonaws.com/chico-rei-blogs/content/images/2021/10/capa-cinema-em-casa.jpg" alt="Imagem de cinema" class="imagem-box">
+        </section>
 
-            <section id="destaques">
-                <h2>Destaques</h2>
+        <section id="destaques">
+            <h2>Destaques</h2>
 
-                <div class="cards">
-                    <div class="card">
-                        <nav>
-                            <p>filme campeão</p>
-                            <img src="imagens/esfrie.png" alt="Imagem do filme Esfrie"
-                            width="230px" height="300px">
-                        </nav>
-                    </div>
-
-                    <!-- Criar mais cinco cards -->
-                    <div class="card">
-                        <nav>
-                            <p>Ato Pós Tomo</p>
-                            <img src="imagens/atopostomo.png" alt="Imagem do filme Ato Pós Tomo"
-                            width="230px" height="300px">
-                        </nav>
-                    </div>
-
-                    <div class="card">
-                        <nav>
-                            <p>Caminho do Altar</p>
-                            <img src="imagens/caminhoaltar.png" alt="Imagem do filme Caminho do Altar"
-                            width="230px" height="300px">
-                        </nav>
-                    </div>
-
-                    <div class="card">
-                        <nav>
-                            <p>Cena Oculta</p>
-                            <img src="imagens/cenaoculta.png" alt="Imagem do filme Cena Oculta"
-                            width="230px" height="300px">
-                        </nav>
-                    </div>
-
-                    <div class="card">
-                        <nav>
-                            <p>Sessão Especial</p>
-                            <img src="imagens/.png" alt="Imagem da Sessão Especial"
-                            width="230px" height="300px">
-                        </nav>
-                    </div>
-
-                    <div class="card">
-                        <nav>
-                            <p>Encerramento</p>
-                            <img src="imagens/esfrie.png" alt="Imagem do evento de encerramento"
-                            width="230px" height="300px">
-                        </nav>
-                    </div>
-                </div>
-            </section>
-
-            <section id="programacao">
-                <h2>Programação</h2>
-
-                <div class="informacoes">
-                    <!-- Três blocos de informação -->
-                    <div class="bloco">
-                        <h3>Data & Horário</h3>
-                        <p>25 a 27 de Novembro, a partir das 18h.</p>
-                    </div>
-
-                    <div class="bloco">
-                        <h3>Local</h3>
-                        <p>Auditório Principal do IFCE.</p>
-                    </div>
-
-                    <div class="bloco">
-                        <h3>Entrada</h3>
-                        <p>Gratuito e aberto ao público em geral.</p>
-                    </div>
+            <div class="cards">
+                <div class="card destaque-card">
+                    <div class="etiqueta">DESTAQUE</div>
+                    <h3>Esfrie</h3>
+                    <img src="imagens/esfrie.png" alt="Imagem do filme Esfrie">
+                    <p class="card-descricao">Filme campeão do festival deste ano.</p>
+                    <a href="#" class="link-card">Saiba mais</a>
                 </div>
 
-                <!-- Tabela de programação -->
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Horário</th>
-                            <th>Filme / Atividade</th>
-                            <th>Sessão</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>18:00</td>
-                            <td>Abertura e Boas-vindas</td>
-                            <td>Auditório</td>
-                        </tr>
-                        <tr>
-                            <td>18:30</td>
-                            <td>Exibição: Esfrie</td>
-                            <td>Sessão 1</td>
-                        </tr>
-                        <tr>
-                            <td>19:15</td>
-                            <td>Exibição: Ato Pós Tomo</td>
-                            <td>Sessão 1</td>
-                        </tr>
-                        <tr>
-                            <td>20:00</td>
-                            <td>Exibição: Caminho do Altar & Cena Oculta</td>
-                            <td>Sessão 2</td>
-                        </tr>
-                        <tr>
-                            <td>21:00</td>
-                            <td>Debate com os Diretores Alunos</td>
-                            <td>Encerramento</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
+                <div class="card">
+                    <h3>Ato Pós Tomo</h3>
+                    <img src="imagens/atopostomo.png" alt="Imagem do filme Ato Pós Tomo">
+                    <p class="card-descricao">Curta-metragem sobre a jornada acadêmica.</p>
+                    <a href="#" class="link-card">Saiba mais</a>
+                </div>
 
-            <section id="contato">
-                <!-- Informações de contato -->
-                <h2>Contato</h2>
-                <p>Email: cinemar@ifce.edu.br</p>
-                <p>Instagram: @cinemar_ifce</p>
-                <p>Telefone: (85) 99999-9999</p>
-            </section>
-        </main>
+                <div class="card">
+                    <h3>Caminho do Altar</h3>
+                    <img src="imagens/caminhoaltar.png" alt="Imagem do filme Caminho do Altar">
+                    <p class="card-descricao">Uma narrativa emocionante sobre escolhas.</p>
+                    <a href="#" class="link-card">Saiba mais</a>
+                </div>
 
-        <footer>
-            <p>Desenvolvido por: Rayssa e Leandro</p>
-            <p>2026 CINEMAR - IFCE. Todos os direitos reservados.</p>
-        </footer>
+                <div class="card">
+                    <h3>Cena Oculta</h3>
+                    <img src="imagens/cenaoculta.png" alt="Imagem do filme Cena Oculta">
+                    <p class="card-descricao">Suspense psicológico dirigido por alunos.</p>
+                    <a href="#" class="link-card">Saiba mais</a>
+                </div>
 
-        <a href="#inicio" class="voltar-topo">
-            Voltar ao topo
-        </a>
+                <div class="card">
+                    <h3>Vingadores</h3>
+                    <img src="imagens/esfrie.png" alt="Imagem da Sessão Especial">
+                    <p class="card-descricao">Exibição de obras convidadas do IFCE.</p>
+                    <a href="#" class="link-card">Saiba mais</a>
+                </div>
 
-    </body>
+                <div class="card">
+                    <h3>Minecraft</h3>
+                    <img src="imagens/esfrie.png" alt="Imagem do evento de encerramento">
+                    <p class="card-descricao">Cerimônia de premiação e debate.</p>
+                    <a href="#" class="link-card">Saiba mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="programacao">
+            <h2>Programação</h2>
+
+            <div class="informacoes">
+                <div class="bloco">
+                    <h3>Data & Horário</h3>
+                    <p>25 a 27 de Novembro, a partir das 18h.</p>
+                </div>
+
+                <div class="bloco">
+                    <h3>Local</h3>
+                    <p>Auditório Principal do IFCE.</p>
+                </div>
+
+                <div class="bloco">
+                    <h3>Atividades</h3>
+                    <p>5 sessoes completas de exibições.</p>
+                </div>
+            </div>
+
+            <table class="tabelas">
+                <thead>
+                    <tr>
+                        <th>Atividade</th>
+                        <th>Data/Horário</th>
+                        <th>Local/Responsável</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Abertura e Boas-vindas</td>
+                        <td>25/11 - 18:00</td>
+                        <td>Auditório - Org. CINEMAR</td>
+                    </tr>
+                    <tr>
+                        <td>Exibição: Esfrie</td>
+                        <td>25/11 - 18:30</td>
+                        <td>Auditório - Equipe Esfrie</td>
+                    </tr>
+                    <tr>
+                        <td>Exibição: Ato Pós Tomo</td>
+                        <td>26/11 - 19:15</td>
+                        <td>Auditório - Equipe Ato Pós Tomo</td>
+                    </tr>
+                    <tr>
+                        <td>Exibição: Caminho do Altar & Cena Oculta</td>
+                        <td>27/11 - 20:00</td>
+                        <td>Auditório - Alunos IFCE</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Email: cinemar@ifce.edu.br</p>
+            <p>Instagram: @cinemar_ifce</p>
+            <p>Telefone: (85) 99999-9999</p>
+        </section>
+    </main>
+
+    <footer id="rodape">
+        <p>Desenvolvido por: Rayssa e Leandro</p>
+        <p>2026 CINEMAR - IFCE. Todos os direitos reservados.</p>
+    </footer>
+
+    <a href="#inicio" class="voltar-topo">
+        Voltar ao topo
+    </a>
+
+</body>
 </html>
