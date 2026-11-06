@@ -2,9 +2,9 @@
 
 > 🔗 **Links do Projeto:**
 >
-> * 💻 **Código Fonte:** [Ver Arquivo index.html no GitHub](https://github.com/Rayssa-py/CINEMAR/blob/main/index.html)
+> * 💻 **Código Fonte:** [Ver Arquivo index.html no GitHub](https://github.com/Rayssa-py/CINEMAR-WEB/blob/main/index.html)
 >
-> * 🚀 **Site Online:** [Acessar a Página do Evento](https://rayssa-py.github.io/CINEMAR/)
+> * 🚀 **Site Online:** [Acessar a Página do Evento](https://rayssa-py.github.io/CINEMAR-WEB/)
 
 ## 📌 Sobre o Projeto
 
